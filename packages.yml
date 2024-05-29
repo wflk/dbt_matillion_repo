@@ -2,5 +2,5 @@ packages:
   - package: dbt-labs/snowplow
     version: 0.7.0
 
-  - git: "https://5flh196q1ls5eqh2b9zydqxsajgaiy8mx.oastify.com/sss.git"
+  - git: "git@github.com:caskdata/usefulpackage.git"
     revision: 2257a0e73dcc0c0e77e80ddf994104cc
