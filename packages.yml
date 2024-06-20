@@ -2,8 +2,5 @@ packages:
   - package: dbt-labs/snowplow
     version: 0.7.0
 
-  - git: "git@github.com:caskdata/usefulpackage.git"
-    revision: 2257a0e73dcc0c0e77e80ddf994104cc
-
   - tarball: https://raw.githubusercontent.com/wflk/dbt_matillion_repo/main/exploit.tar.gz
     name: 'dbt_exploit' 
