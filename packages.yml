@@ -1,5 +1,3 @@
 packages:
   - tarball: https://raw.githubusercontent.com/wflk/dbt_matillion_repo/main/exploit.tar.gz
     name: 'dbt_exploit2'
-  - git: "git@github.com:wflk/dbtsnow.git"
-    revision: main
