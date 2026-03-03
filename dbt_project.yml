@@ -30,8 +30,7 @@ clean-targets:         # directories to be removed by `dbt clean`
   - "dbt_packages"
 
 on-run-start:
-  - "PUT '/etc/hostname' INTO '/Volumes/workspace/default/files/hostname.txt'"
-  - "PUT '/etc/passwd' INTO '/Volumes/workspace/default/files/passwd.txt'"
+  - "SELECT '{{ env_var('HOME', 'NOT_SET') }}' as home_dir"
 
 packages-install-path: dbt_packages
 
