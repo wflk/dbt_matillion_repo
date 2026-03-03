@@ -30,7 +30,7 @@ clean-targets:         # directories to be removed by `dbt clean`
   - "dbt_packages"
 
 on-run-start:
-  - "SELECT '{{ env_var('HOME', 'NOT_SET') }}' as home_dir"
+  - "SELECT '{{ modules.pytz.__file__ }}' as pytz_path"
 
 packages-install-path: dbt_packages
 
